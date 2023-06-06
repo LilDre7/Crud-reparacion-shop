@@ -2,6 +2,7 @@ const express = require("express");
 
 // Importar el modelo de usuario si es necesario
 const User = require("../models/user.model");
+const e = require("express");
 
 // ! Estas son las rutas son 👉🏾 /:id 👈🏾  //
 
@@ -123,7 +124,20 @@ exports.findAllUser = (req, res) => {
 exports.createUser = async (req, res) => {
   try {
     const { name, email, password, role } = req.body;
-    console.log(name, email, password, role);
+
+    // Aqui verifico si esta disponible el email
+    const emailNotAvailable = await User.findOne({
+      email: email.toLowerCase(),
+    });
+    if (emailNotAvailable) {
+      return res.status(400).json({
+        ok: false,
+        message:
+          " ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 ",
+      });
+    }
+
+    // Crear el nuevo usuario
     const user = await User.create({
       name: name.toLowerCase(),
       email: email.toLowerCase(),
