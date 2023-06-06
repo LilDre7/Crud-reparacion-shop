@@ -39,8 +39,6 @@ exports.updateRepair = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const { date, userId } = req.body;
-
     const repair = await REPAIR.findOne({
       where: {
         status: "pending",
@@ -74,41 +72,34 @@ exports.disableRepair = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const notCompleted = await REPAIR.findOne({
-      where: {
-        status: "completed",
-      },
-    });
-
-    if (notCompleted)
-      return res.json({
-        status: "error",
-        message:
-          "No se puede cancelar una reparacion ya completada  🧞‍♂️👁️",
-      });
-
     const repair = await REPAIR.findOne({
       where: {
         id,
-        status: "completed",
       },
     });
 
     if (!repair)
       return res.json({
         status: "error",
-        message: "No se encontro la moto para reparar 🚨",
+        message: "No se encontró la moto para reparar 🚨",
+      });
+
+    if (repair.status === "completed")
+      return res.json({
+        status: "error",
+        message:
+          "No se puede cancelar una reparación ya completada 🧞‍♂️👁️",
       });
 
     await repair.update({ status: "cancelled" });
 
     return res.json({
-      status: "error",
-      message: "Reparacion fue encontrada, toma tu moto YZ 🏁🏍️",
+      status: "success",
+      message: "Reparación cancelada exitosamente",
     });
   } catch (error) {
     return res.status(500).json({
-      status: error,
+      status: "error",
       message: "Error al obtener la moto ☠️",
     });
   }
