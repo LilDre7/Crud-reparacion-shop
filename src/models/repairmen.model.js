@@ -9,10 +9,12 @@ const REPAIR = db.define("repairs", {
     type: DataTypes.INTEGER,
   },
   date: {
-    type: DataTypes.INTEGER,
+    // !! Profe lo puse tipo NUMBER , Porque no me funciono el tipo date DATE
+    type: DataTypes.NUMBER,
     allowNull: false,
   },
   status: {
+    type: DataTypes.STRING,
     type: DataTypes.ENUM("pending", "completed", "cancelled"),
     allowNull: false,
     defaultValue: "pending",

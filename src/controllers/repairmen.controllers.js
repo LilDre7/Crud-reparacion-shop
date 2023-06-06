@@ -25,6 +25,7 @@ exports.findOneRepair = async (req, res) => {
     return res.json({
       status: "success",
       message: "Reparacion fue encontrada 🚨⛽",
+      repair,
     });
   } catch (error) {
     return res.status(500).json({
@@ -108,18 +109,20 @@ exports.disableRepair = async (req, res) => {
 //TODO: Estas son las rutas son 👉🏾 / 👈🏾  //
 
 // == OBTENER LA LISTA DE MOTOS // findAllRepair  == //
-exports.findAllRepair = (req, res) => {
-  try {
-    res.status(200).json({
-      ok: true,
-      message: "Aqui todos los usuarios  👽",
-    });
-  } catch (error) {
-    return res.status(500).json({
-      status: error,
-      message: "Error al encontrar un usuario 🙈",
-    });
-  }
+exports.findAllRepair = async (req, res) => {
+  const repairs = await REPAIR.findAll({
+    where: {
+      status: "pending", // pending, completed, cancelled
+    },
+  });
+
+  return res.status(200).json({
+    message: "Aqui todas los reparaciones  🙈",
+    results: repairs.length,
+    status: "success",
+    ok: true,
+    repairs,
+  });
 };
 
 // == CREAR UNA CITA // createRepair  == //
@@ -128,8 +131,8 @@ exports.createRepair = async (req, res) => {
     const { date, userId } = req.body;
 
     const repair = await REPAIR.create({
-      userId,
       date,
+      userId,
     });
 
     res.status(201).json({
