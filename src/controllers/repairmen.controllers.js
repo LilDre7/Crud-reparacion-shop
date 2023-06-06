@@ -73,7 +73,19 @@ exports.updateRepair = async (req, res) => {
 exports.disableRepair = async (req, res) => {
   try {
     const { id } = req.params;
-    const { status } = req.body;
+
+    const notCompleted = await REPAIR.findOne({
+      where: {
+        status: "completed",
+      },
+    });
+
+    if (notCompleted)
+      return res.json({
+        status: "error",
+        message:
+          "No se puede cancelar una reparacion ya completada  🧞‍♂️👁️",
+      });
 
     const repair = await REPAIR.findOne({
       where: {

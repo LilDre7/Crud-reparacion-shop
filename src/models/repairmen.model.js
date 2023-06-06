@@ -9,7 +9,7 @@ const REPAIR = db.define("repairs", {
     type: DataTypes.INTEGER,
   },
   date: {
-    type: DataTypes.DATE,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
   status: {

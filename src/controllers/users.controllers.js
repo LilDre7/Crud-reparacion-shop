@@ -127,17 +127,19 @@ exports.createUser = async (req, res) => {
 
     // Aqui verifico si esta disponible el email
     const emailNotAvailable = await User.findOne({
-      email: email.toLowerCase(),
+      where: {
+        email: email.toLowerCase(),
+      },
     });
     if (emailNotAvailable) {
       return res.status(400).json({
-        ok: false,
+        status: "fail",
         message:
           " ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 ",
       });
     }
 
-    // Crear el nuevo usuario
+    // Si el email esta disponible, se crea el usuario
     const user = await User.create({
       name: name.toLowerCase(),
       email: email.toLowerCase(),
