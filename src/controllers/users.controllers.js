@@ -1,8 +1,5 @@
-const express = require("express");
-
 // Importar el modelo de usuario si es necesario
 const User = require("../models/user.model");
-const e = require("express");
 
 // ! Estas son las rutas son 👉🏾 /:id 👈🏾  //
 

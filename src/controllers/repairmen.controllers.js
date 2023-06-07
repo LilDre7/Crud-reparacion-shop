@@ -1,5 +1,3 @@
-const express = require("express");
-
 // Importar el modelo de usuario si es necesario
 const REPAIR = require("../models/repairmen.model");
 
@@ -75,6 +73,8 @@ exports.disableRepair = async (req, res) => {
 
     const repair = await REPAIR.findOne({
       where: {
+        // Hacer busqueda pero decide hacerlo de la otra forma
+        // status: "pending",
         id,
       },
     });
@@ -91,6 +91,13 @@ exports.disableRepair = async (req, res) => {
         message:
           "No se puede cancelar una reparación ya completada 🧞‍♂️👁️",
       });
+
+    if (repair.status == "cancelled") {
+      return res.status(404).json({
+        status: "error",
+        message: "La reparación ya fue cancelada 🙈",
+      });
+    }
 
     await repair.update({ status: "cancelled" });
 
