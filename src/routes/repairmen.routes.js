@@ -4,6 +4,12 @@ const express = require("express");
 // Importando Route como funcion //
 const router = express.Router();
 
+// Importando los middlewares para validaciones
+const repairmenExists = require("../middlewares/validations.repairmen.middleware");
+
+// Importando los middlewares de validacion de los modelos
+const validModelRepair = require("../middlewares/validationModel.repairmen.middleware");
+
 // Importando el controlador de mis usuarios //
 const repairmenController = require("../controllers/repairmen.controllers");
 
@@ -18,6 +24,10 @@ router
 router
   .route("/")
   .get(repairmenController.findAllRepair)
-  .post(repairmenController.createRepair);
+  .post(
+    validModelRepair.validationModelRepair,
+    repairmenExists.repairExist,
+    repairmenController.createRepair
+  );
 
 module.exports = router;

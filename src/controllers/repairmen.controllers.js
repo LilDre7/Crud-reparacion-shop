@@ -1,117 +1,90 @@
 // Importar el modelo de usuario si es necesario
 const REPAIR = require("../models/repairmen.model");
+const catchAsync = require("../utils/catchAsync");
+const AppError = require("../utils/appError");
 
 //TODO: Estas son las rutas son 👉🏾 /:id 👈🏾  //
 
 // == OBTENER UNA MOTO // findOneRepair == //
-exports.findOneRepair = async (req, res) => {
-  try {
-    const { id } = req.params;
+exports.findOneRepair = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
 
-    const repair = await REPAIR.findOne({
-      where: {
-        id,
-      },
-    });
+  const repair = await REPAIR.findOne({
+    where: {
+      id,
+    },
+  });
 
-    if (!repair)
-      return res.json({
-        status: "error",
-        message: "No se encontro la moto, este no es tu taller 🙈 ",
-      });
+  if (!repair)
+    next(
+      new AppError("No se encontro la moto, este no es tu taller 🙈 ")
+    );
 
-    return res.json({
-      status: "success",
-      message: "Reparacion fue encontrada 🚨⛽",
-      repair,
-    });
-  } catch (error) {
-    return res.status(500).json({
-      status: error,
-      message: "Error al obtener la moto",
-    });
-  }
-};
+  return res.json({
+    status: "success",
+    message: "Reparacion fue encontrada 🚨⛽",
+    repair,
+  });
+});
 
 // == ACTUALIZAR EL ESTADO ==  // updateRepair == //
-exports.updateRepair = async (req, res) => {
-  try {
-    const { id } = req.params;
+exports.updateRepair = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
 
-    const repair = await REPAIR.findOne({
-      where: {
-        status: "pending",
-        id,
-      },
-    });
+  const repair = await REPAIR.findOne({
+    where: {
+      status: "pending",
+      id,
+    },
+  });
 
-    if (!repair) {
-      return res.status(404).json({
-        status: "fail",
-        message: `La reparacion con ${id} no se encuentra o ya esta completa! 👻`,
-      });
-    }
+  if (!repair)
+    next(
+      new AppError(
+        `La reparacion con ${id} no se encuentra o ya esta completa! 👻`
+      )
+    );
 
-    await repair.update({ status: "completed" });
+  await repair.update({ status: "completed" });
 
-    return res.status(200).json({
-      status: "success",
-      message: "Tu monto esta lista vaya monte! 🐌",
-    });
-  } catch (error) {
-    return res.status(500).json({
-      status: "error",
-      message: "Error al actualizar la moto ☠️ ",
-    });
-  }
-};
+  return res.status(200).json({
+    status: "success",
+    message: "Tu monto esta lista vaya monte! 🐌",
+  });
+});
 
 // == CANCELAR LA REPARACION ==  // disableRepair == //
-exports.disableRepair = async (req, res) => {
-  try {
-    const { id } = req.params;
+exports.disableRepair = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
 
-    const repair = await REPAIR.findOne({
-      where: {
-        // Hacer busqueda pero decide hacerlo de la otra forma
-        // status: "pending",
-        id,
-      },
-    });
+  const repair = await REPAIR.findOne({
+    where: {
+      // Hacer busqueda pero decide hacerlo de la otra forma
+      // status: "pending",
+      id,
+    },
+  });
 
-    if (!repair)
-      return res.json({
-        status: "error",
-        message: "No se encontró la moto para reparar 🚨",
-      });
+  if (!repair)
+    next(new AppError("No se encontró la moto para reparar 🚨"));
 
-    if (repair.status === "completed")
-      return res.json({
-        status: "error",
-        message:
-          "No se puede cancelar una reparación ya completada 🧞‍♂️👁️",
-      });
+  if (repair.status === "completed")
+    next(
+      new AppError(
+        "No se puede cancelar una reparación ya completada 🧞‍♂️👁️"
+      )
+    );
 
-    if (repair.status == "cancelled") {
-      return res.status(404).json({
-        status: "error",
-        message: "La reparación ya fue cancelada 🙈",
-      });
-    }
+  if (repair.status == "cancelled")
+    next(new AppError("La reparación ya fue cancelada 🙈"));
 
-    await repair.update({ status: "cancelled" });
+  await repair.update({ status: "cancelled" });
 
-    return res.json({
-      status: "success",
-      message: " 🥶 Reparación cancelada exitosamente 🤬 ",
-    });
-  } catch (error) {
-    return res.status(500).json({
-      status: "error",
-      message: "Error al obtener la moto ☠️",
-    });
-  }
-};
+  return res.json({
+    status: "success",
+    message: " 🥶 Reparación cancelada exitosamente 🤬 ",
+  });
+});
 
 //TODO: Estas son las rutas son 👉🏾 / 👈🏾  //
 
@@ -133,24 +106,17 @@ exports.findAllRepair = async (req, res) => {
 };
 
 // == CREAR UNA CITA // createRepair  == //
-exports.createRepair = async (req, res) => {
-  try {
-    const { date, userId } = req.body;
+exports.createRepair = catchAsync(async (req, res) => {
+  const { date, userId } = req.body;
 
-    const repair = await REPAIR.create({
-      date,
-      userId,
-    });
+  const repair = await REPAIR.create({
+    date,
+    userId,
+  });
 
-    res.status(201).json({
-      ok: true,
-      message: "⛽ Reparación creada correctamente 🎈",
-      repair,
-    });
-  } catch (error) {
-    return res.status(500).json({
-      status: error,
-      message: "Error al crear una reparación ☠️🍡",
-    });
-  }
-};
+  res.status(201).json({
+    ok: true,
+    message: "⛽ Reparación creada correctamente 🎈",
+    repair,
+  });
+});

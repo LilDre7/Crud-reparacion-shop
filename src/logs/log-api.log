@@ -1,1 +1,81 @@
 [2023-06-15T19:52:42.047Z] , info: La ruta es incorrecta o no valida /api/v1/userss/1 🚑 
+[2023-06-15T20:45:07.754Z] , info: La ruta es incorrecta o no valida /api/v1/repairs2 🚑 
+[2023-06-15T20:45:21.514Z] , info: La ruta es incorrecta o no valida /api/v1/repairs2/2 🚑 
+[2023-06-15T20:48:04.002Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-15T20:48:53.829Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-15T20:50:30.148Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-15T20:50:45.980Z] , info: next is not defined
+[2023-06-15T20:50:49.555Z] , info: next is not defined
+[2023-06-15T20:50:59.513Z] , info: next is not defined
+[2023-06-15T20:51:03.178Z] , info: next is not defined
+[2023-06-15T20:51:15.851Z] , info: La reparacion con 10 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:22.490Z] , info: La reparacion con 10 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:26.201Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:27.835Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:31.608Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:34.363Z] , info: La reparacion con 3 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:40.941Z] , info: La reparacion con 100 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:42.374Z] , info: La reparacion con 100 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:43.461Z] , info: La reparacion con 100 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:45.835Z] , info: La reparacion con 3 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:47.303Z] , info: La reparacion con 4 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:49.224Z] , info: La reparacion con 10 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:50.707Z] , info: La reparacion con 112 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:51:53.165Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:52:13.656Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:52:15.091Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-15T20:59:30.788Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:03:26.441Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:03:28.403Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:03:45.175Z] , info: next is not defined
+[2023-06-15T21:03:47.206Z] , info: next is not defined
+[2023-06-15T21:04:04.757Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-15T21:04:17.239Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-15T21:04:19.686Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-15T21:04:20.935Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-15T21:06:26.319Z] , info: La reparacion con 15 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:06:28.511Z] , info: La reparacion con 15 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:06:33.818Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-15T21:06:35.244Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-15T21:06:36.702Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-15T21:07:00.553Z] , info: La reparacion con 11 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:07:02.064Z] , info: La reparacion con 11 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:07:03.302Z] , info: La reparacion con 11 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:07:24.358Z] , info: La reparacion con 11 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:07:30.118Z] , info: La reparacion con 11 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:08:46.041Z] , info: La reparacion con 11 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:09:18.240Z] , info: La reparacion con 12 no se encuentra o ya esta completa! 👻
+[2023-06-15T21:34:27.446Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T21:34:32.829Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T21:34:41.471Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T21:34:51.983Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:34:54.261Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:34:56.666Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:35:47.491Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:35:56.275Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:36:33.495Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:36:42.199Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:36:43.635Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:36:49.753Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:36:57.556Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:36:58.708Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:36:59.806Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:37:03.630Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:37:05.599Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:37:06.810Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:37:13.216Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:37:19.155Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:37:35.633Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:37:37.420Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:37:38.410Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-15T21:37:59.797Z] , info: la sintaxis de entrada no es válida para tipo integer: «15'»
+[2023-06-15T21:38:04.259Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T21:38:05.719Z] , info: Usuario con 150 no funciona! 🐣
+[2023-06-15T22:33:30.335Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T22:33:35.444Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T22:33:46.634Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T22:33:50.259Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T22:35:57.868Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T22:36:42.503Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T22:37:02.591Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-15T22:37:27.758Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
