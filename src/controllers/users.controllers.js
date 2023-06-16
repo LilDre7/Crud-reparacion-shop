@@ -2,6 +2,8 @@
 const User = require("../models/user.model");
 const catchAsync = require("../utils/catchAsync");
 const AppError = require("../utils/appError");
+const bcrypt = require("bcryptjs");
+const generatejwt = require("../utils/jwt");
 
 // ! Estas son las rutas son 👉🏾 /:id 👈🏾  //
 
@@ -89,6 +91,10 @@ exports.findAllUser = (req, res) => {
 exports.createUser = catchAsync(async (req, res, next) => {
   const { name, email, password, role } = req.body;
 
+  // Creacion para la encriptacion de contraseñas con bcrypt
+  const salt = await bcrypt.genSalt(10);
+  const encrytedPassword = await bcrypt.hash(password, salt);
+
   // Aqui verifico si esta disponible el email
   const emailNotAvailable = await User.findOne({
     where: {
@@ -106,13 +112,64 @@ exports.createUser = catchAsync(async (req, res, next) => {
   const user = await User.create({
     name: name.toLowerCase(),
     email: email.toLowerCase(),
-    password: password.toLowerCase(),
+    password: encrytedPassword,
     role: role.toLowerCase(),
   });
+  // Genero el token de autenticacion
+  const token = await generatejwt(user.id);
 
   res.status(201).json({
     ok: true,
     message: "Usuario creado 🐌",
-    user,
+    token,
+    user: {
+      id: user.name,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+    },
   });
 });
+
+// == LOGIN == //
+exports.login = catchAsync(async (req, res, next) => {
+  // Traernos del req.body => email / password
+  const { email, password } = req.body;
+
+  // Buscar el usuario en la base de datos y revisar si existen
+  const user = await User.findOne({
+    where: {
+      email: email.toLowerCase(),
+      status: "available",
+    },
+  });
+
+  if (!user)
+    next(new AppError(`El usuario con este ${email} no existe 🚑`));
+
+  // Validar si la contraseña es correcta
+  // De esta forma evaluamos que la contraseña sea correcta, esto se hace con validaciones de bcrypt
+  if (!(await bcrypt.compare(password, user.password))) {
+    return next(new AppError(`La contraseña no es correcta 🦊`, 401));
+  }
+
+  // Generar el token
+  const token = await generatejwt(user.id);
+
+  // Enviar la información del usuario
+  res.status(200).json({
+    status: "success",
+    message: "Tu login fue exitoso 🐲",
+    token,
+    user: {
+      id: user.id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+    },
+  });
+});
+
+exports.updatePassword = catchAsync(async (req, res, next) => {});
+
+// exports.renew = catchAsync(async (req, res, next) => {});

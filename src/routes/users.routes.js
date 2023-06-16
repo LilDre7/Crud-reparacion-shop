@@ -29,4 +29,14 @@ router
     userController.createUser
   );
 
+router.route("/login").post(userController.login);
+
+// router.route("/renew").get(userController.renew);
+// ¿ Porque aqui colocamos el middlewares?
+// Lo colocamos porque debemos saber si el usuario o no, despues de esta validacion se actualiza o no
+
+router
+  .route("/password/:id")
+  .patch(userExists.userExist, userController.updatePassword);
+
 module.exports = router;

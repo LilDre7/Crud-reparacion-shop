@@ -79,3 +79,62 @@
 [2023-06-15T22:36:42.503Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
 [2023-06-15T22:37:02.591Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
 [2023-06-15T22:37:27.758Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T19:10:53.902Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:10:10.332Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:10:16.243Z] , info: secretOrPrivateKey must have a value
+[2023-06-16T20:10:26.297Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:10:27.910Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:10:30.789Z] , info: secretOrPrivateKey must have a value
+[2023-06-16T20:10:33.643Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:13:02.989Z] , info: secretOrPrivateKey must have a value
+[2023-06-16T20:14:25.080Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:14:32.112Z] , info: secretOrPrivateKey must have a value
+[2023-06-16T20:41:25.918Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-16T20:41:29.044Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-16T20:41:51.145Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-16T20:42:54.967Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-16T20:42:56.445Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-16T20:43:52.996Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:44:19.034Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:44:21.649Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:44:33.053Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:44:45.253Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:44:48.749Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:44:57.597Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:46:00.150Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:46:01.349Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:48:13.490Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:48:36.794Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T20:50:29.340Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:50:45.383Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:50:46.841Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:50:53.507Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:50:54.645Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:50:59.374Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:51:00.664Z] , info: La contraseña no es correcta 🚑
+[2023-06-16T20:52:28.342Z] , info: El usuario con este alvaroabur1@gmail.com no existe 🚑
+[2023-06-16T20:52:49.722Z] , info: El usuario con este AlvaroAbur1@gmail.com no existe 🚑
+[2023-06-16T20:52:52.555Z] , info: El usuario con este AlvaroAbur1@gmail.com no existe 🚑
+[2023-06-16T20:56:17.588Z] , info: El usuario con este AlvaroAbur1@gmail.com no existe 🚑
+[2023-06-16T20:56:21.152Z] , info: El usuario con este AlvaroAbur1@gmail.com no existe 🚑
+[2023-06-16T20:56:56.492Z] , info: El usuario con este alvaroabur1@gmail.com no existe 🚑
+[2023-06-16T20:56:59.345Z] , info: El usuario con este alvaroabur1@gmail.com no existe 🚑
+[2023-06-16T20:57:22.711Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T20:57:24.261Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T20:57:25.658Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T20:57:29.463Z] , info: El usuario con este alvaoabur1@gmail.com no existe 🚑
+[2023-06-16T20:57:35.520Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T20:57:47.629Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T20:57:49.031Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T21:00:46.371Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T21:00:54.621Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T21:00:56.153Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T21:00:57.224Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T21:01:14.130Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T21:01:19.995Z] , info: El usuario con este alvaroabur1@gmil.com no existe 🚑
+[2023-06-16T21:57:03.862Z] , info: El usuario con este alvaroabur1@gmil.com no existe 🚑
+[2023-06-16T21:57:05.896Z] , info: El usuario con este alvaroabur1@gmil.com no existe 🚑
+[2023-06-16T22:03:38.687Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T22:03:41.630Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-16T22:32:40.940Z] , info: El usuario con este alvaroabur1@gmail.om no existe 🚑
+[2023-06-16T22:32:48.401Z] , info: La contraseña no es correcta 🦊

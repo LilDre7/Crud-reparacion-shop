@@ -14,23 +14,25 @@ const validateFields = (req, res, next) => {
 };
 
 exports.validationModelUser = [
-  body("Date")
+  body("name", "El nombre es obligatorio")
     .not()
-    .notEmpty()
-    .isDate()
-    .isNumeric()
+    .isEmpty()
+    .isLength({ min: 5 })
+    .withMessage("El nombre debe tener al menos 5 caracteres"),
+  body("email")
+    .not()
+    .isEmpty()
+    // .isEmail()
+    // .matches(
+    //   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+    // )
+    .withMessage("El email es obligatorio"),
+  body("password")
+    .not()
+    .isEmpty()
+    .matches(/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/)
     .withMessage(
-      "Es campo en requerido y debe ser tipo DATE en dato tipo numerico"
+      "La contraseña debe tener entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula."
     ),
-  body("motorsNumber")
-    .not()
-    .notEmpty()
-    .isNumeric()
-    .isNumeric()
-    .withMessage("Es campo requerido deber ser tipo numerico"),
-  body("description")
-    .not()
-    .notEmpty()
-    .withMessage("Es campo requerido deber ser tipo string"),
   validateFields,
 ];
