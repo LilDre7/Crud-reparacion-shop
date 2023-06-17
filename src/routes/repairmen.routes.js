@@ -11,7 +11,7 @@ const repairmenExists = require("../middlewares/validations.repairmen.middleware
 const validModelRepair = require("../middlewares/validationModel.repairmen.middleware");
 
 // Importando el controlador de mis usuarios //
-const repairmenController = require("../controllers/repairmen.controllers");
+const repairmenController = require("../controllers/repairmen.controller");
 
 // == Estas son las rutas son 👉🏾 /:id 👈🏾  //
 router

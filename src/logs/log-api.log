@@ -138,3 +138,132 @@
 [2023-06-16T22:03:41.630Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
 [2023-06-16T22:32:40.940Z] , info: El usuario con este alvaroabur1@gmail.om no existe 🚑
 [2023-06-16T22:32:48.401Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T23:02:24.099Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T23:02:26.801Z] , info: La contraseña no es correcta 🦊
+[2023-06-16T23:03:42.845Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/19 🚑 
+[2023-06-16T23:03:48.332Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/19 🚑 
+[2023-06-16T23:03:49.681Z] , info: La ruta es incorrecta o no valida /api/v1/users/password/19 🚑 
+[2023-06-16T23:03:53.448Z] , info: El usuario no existe 🚨
+[2023-06-16T23:03:54.341Z] , info: El usuario no existe 🚨
+[2023-06-16T23:03:58.014Z] , info: El usuario no existe 🚨
+[2023-06-16T23:03:59.122Z] , info: El usuario no existe 🚨
+[2023-06-16T23:05:01.336Z] , info: El usuario no existe 🚨
+[2023-06-16T23:05:20.140Z] , info: El usuario con 18 no funciona!  ㋡
+[2023-06-16T23:05:24.834Z] , info: El usuario con 18 no funciona!  ㋡
+[2023-06-16T23:05:45.716Z] , info: El usuario con 18 no funciona!  ㋡
+[2023-06-16T23:05:59.869Z] , info: El usuario con 18 no funciona!  ㋡
+[2023-06-16T23:06:20.511Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:21.837Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:25.128Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:26.308Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:27.256Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:28.595Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:30.898Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:31.934Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:32.968Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:06:35.186Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:02.899Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:04.351Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:06.031Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:07.107Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:10.561Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:14.358Z] , info: El usuario no existe 🚨
+[2023-06-16T23:07:18.756Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:25.871Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:29.004Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:07:45.829Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:08:00.229Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:08:05.971Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:08:06.892Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:08:18.298Z] , info: Illegal arguments: undefined, string
+[2023-06-16T23:08:19.467Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:28:42.310Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:28:49.552Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:28:55.194Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:46:43.536Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:46:46.293Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:46:51.250Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:46:55.093Z] , info: Illegal arguments: undefined, string
+[2023-06-17T18:48:02.291Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T18:48:14.027Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T18:48:19.607Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T18:48:20.838Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T18:48:21.890Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T18:48:22.983Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T19:00:03.340Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:00:13.866Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:00:25.614Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:00:37.874Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:00:38.939Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:00:40.106Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:01:26.919Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:01:27.924Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:01:29.220Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:01:31.804Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:01:38.075Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:01:39.152Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:01:40.320Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:02:54.205Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:05:35.283Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:05:37.692Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:10:07.491Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:12.364Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:29.149Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:30.285Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:31.487Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:32.580Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:41.894Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:10:44.912Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:45.940Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:10:47.068Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:11:19.672Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:11:50.764Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:11:59.903Z] , info: Cannot read properties of null (reading 'password')
+[2023-06-17T19:12:17.480Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:12:54.248Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:12:56.551Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:13:47.702Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:14:07.027Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:14:22.162Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:14:24.122Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:14:38.467Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:15:02.746Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:15:04.012Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:15:21.852Z] , info: El usuario con este lildre@crack.com no existe 🚑
+[2023-06-17T19:18:41.866Z] , info: El usuario con este lildre@crack.com no existe o es disable 🚑
+[2023-06-17T19:19:18.755Z] , info: El usuario con este email: lildre@crack.com no existe o es disabled 🚑
+[2023-06-17T19:20:10.175Z] , info: Usuario con 21 no funciona! 🐣
+[2023-06-17T19:20:14.890Z] , info: Usuario con 21 no funciona! 🐣
+[2023-06-17T19:20:15.905Z] , info: Usuario con 21 no funciona! 🐣
+[2023-06-17T19:20:41.386Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:20:48.749Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:20:49.723Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:25:09.430Z] , info: Usuario con 21 no funciona! 🐣
+[2023-06-17T19:25:19.802Z] , info: Usuario con 21 no funciona! 🐣
+[2023-06-17T19:25:34.831Z] , info: Usuario con 21 no funciona! 🐣
+[2023-06-17T19:26:31.128Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T19:26:34.518Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T19:26:52.099Z] , info: La contraseña no es correcta 🦊
+[2023-06-17T19:47:35.026Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:48:45.891Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:49:25.325Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-17T19:49:54.354Z] , info: El usuario con este email: alvaroaburto71@gmail.com no existe o es disabled 🚑
+[2023-06-17T19:50:23.806Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:50:26.420Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:50:42.223Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:50:43.247Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:51:04.900Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:51:08.305Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:51:09.463Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:51:12.238Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:51:33.823Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:51:34.945Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:51:42.057Z] , info: no existe la columna «motorsNumber»
+[2023-06-17T19:52:50.286Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:53:04.233Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:53:05.292Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:53:14.393Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:53:15.559Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:53:32.775Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:53:38.066Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-17T19:53:44.476Z] , info: La contraseña no es correcta 🦊

@@ -22,12 +22,30 @@ exports.validationModelUser = [
   body("email")
     .not()
     .isEmpty()
-    // .isEmail()
-    // .matches(
-    //   /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-    // )
+    .isEmail()
+    .matches(
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+    )
     .withMessage("El email es obligatorio"),
   body("password")
+    .not()
+    .isEmpty()
+    .matches(/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/)
+    .withMessage(
+      "La contraseña debe tener entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula."
+    ),
+  validateFields,
+];
+
+exports.validationModelUpdateUser = [
+  body("currentPassword")
+    .not()
+    .isEmpty()
+    .matches(/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/)
+    .withMessage(
+      "La contraseña debe tener entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula."
+    ),
+  body("newPassword")
     .not()
     .isEmpty()
     .matches(/^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$/)

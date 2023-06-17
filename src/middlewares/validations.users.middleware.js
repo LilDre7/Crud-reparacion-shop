@@ -21,10 +21,6 @@ const userExist = catchAsync(async (req, res, next) => {
 
   req.user = user;
 
-  res.status(200).json({
-    status: "success",
-    message: "El usuario fue encontrado exitosamente 🐲",
-  });
   // IMPORTANTE EL NEXT()
   next();
 });

@@ -11,7 +11,7 @@ const validUserModel = require("../middlewares/validationModel.users.middleware"
 const userExists = require("../middlewares/validations.users.middleware");
 
 // Importando el controlador de mis usuarios //
-const userController = require("../controllers/users.controllers");
+const userController = require("../controllers/users.controller");
 
 // == Estas son las rutas son 👉🏾 /:id 👈🏾  //
 router
@@ -31,12 +31,16 @@ router
 
 router.route("/login").post(userController.login);
 
-// router.route("/renew").get(userController.renew);
 // ¿ Porque aqui colocamos el middlewares?
 // Lo colocamos porque debemos saber si el usuario o no, despues de esta validacion se actualiza o no
+// router.route("/renew").get(userController.renew);
 
 router
   .route("/password/:id")
-  .patch(userExists.userExist, userController.updatePassword);
+  .patch(
+    userExists.userExist,
+    validUserModel.validationModelUpdateUser,
+    userController.updatePassword
+  );
 
 module.exports = router;

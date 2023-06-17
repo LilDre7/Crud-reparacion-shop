@@ -144,8 +144,13 @@ exports.login = catchAsync(async (req, res, next) => {
     },
   });
 
-  if (!user)
-    next(new AppError(`El usuario con este ${email} no existe 🚑`));
+  // Este if verifica si exite el email o si esta available de lo contrario dara un error
+  if (user === null || user.status === "disabled")
+    next(
+      new AppError(
+        `El usuario con este email: ${email} no existe o es disabled 🚑`
+      )
+    );
 
   // Validar si la contraseña es correcta
   // De esta forma evaluamos que la contraseña sea correcta, esto se hace con validaciones de bcrypt
@@ -164,12 +169,35 @@ exports.login = catchAsync(async (req, res, next) => {
     user: {
       id: user.id,
       name: user.name,
-      email: user.email,
+      email: user.email.toLowerCase(),
       role: user.role,
     },
   });
 });
 
-exports.updatePassword = catchAsync(async (req, res, next) => {});
+// == UPDATE PASSWORD == //
+exports.updatePassword = catchAsync(async (req, res, next) => {
+  const { user } = req;
+
+  const { currentPassword, newPassword } = req.body;
+
+  if (!(await bcrypt.compare(currentPassword, user.password)))
+    return next(
+      new AppError(`La contraseña actual no es correcta  🚑`, 401)
+    );
+
+  const salt = await bcrypt.genSalt(10);
+  const encrytedPassword = await bcrypt.hash(newPassword, salt);
+
+  await user.update({
+    password: encrytedPassword,
+    passwordChangedAt: new Date(),
+  });
+
+  res.status(200).json({
+    status: "success",
+    message: "La contraseña ha sido actualizada correctamente  🧑🏾‍🎤",
+  });
+});
 
 // exports.renew = catchAsync(async (req, res, next) => {});
