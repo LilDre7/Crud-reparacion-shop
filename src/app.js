@@ -2,12 +2,32 @@ const colors = require("colors");
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
+const rateLimit = require("express-rate-limit");
+const helmet = require("helmet");
+const hpp = require("hpp");
 
 // ** Utilities ** //
 const AppError = require("./utils/appError");
 
 // ** Ejecutando express ** //
 const app = express();
+
+// ** Expres-rate-limit es para limitar las peticiones que se realizan a nuestra api ** //
+const limiter = rateLimit({
+  // Para el maximo de peticones
+  max: 3,
+  // Para saber el tiempo de cada peticion => Solo por ip se puede 3 peticones.
+  windowMs: 60 * 60 * 1000,
+  // Mensaje de error
+  message:
+    "Tienes muchas peticiones, intenta en una 1h o mas tarde 🚩 ",
+});
+
+// ** HPP es para proteger nuestra aplicacion contra el ataque de parametros maliciosos ** //
+app.use(hpp());
+
+// ** Helmet es para proteger nuestra aplicacion contra algunos ataques ** //
+app.use(helmet());
 
 // ** Middlewares ** //
 app.use(express.json());
@@ -22,6 +42,8 @@ if (process.env.NODE_ENV === "development") {
 
 // ** Middlewares para el manejo de errores globales ** //
 const globalErrorHandler = require("./controllers/error.controller");
+
+app.use("/api/v1", limiter);
 
 //** Routes **//
 const usersRoutes = require("./routes/users.routes");

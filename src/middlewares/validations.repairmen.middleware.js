@@ -12,16 +12,7 @@ const repairExist = catchAsync(async (req, res, next) => {
     },
   });
 
-  if (!repair)
-    next(new AppError("No hay servicios pendientes 🦊 ", 400));
-
   req.repair = repair;
-
-  res.status(200).json({
-    status: "success",
-    message:
-      "El usuario pendiente si existe en nuestra base de datos 🐲",
-  });
 
   next();
 });

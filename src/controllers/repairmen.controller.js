@@ -17,7 +17,9 @@ exports.findOneRepair = catchAsync(async (req, res, next) => {
 
   if (!repair)
     next(
-      new AppError("No se encontro la moto, este no es tu taller 🙈 ")
+      new AppError(
+        "No se encontro la moto, este no es tu taller 🚑 "
+      )
     );
 
   return res.json({
@@ -76,7 +78,7 @@ exports.disableRepair = catchAsync(async (req, res, next) => {
     );
 
   if (repair.status == "cancelled")
-    next(new AppError("La reparación ya fue cancelada 🙈"));
+    next(new AppError("La reparación ya fue cancelada 🚑"));
 
   await repair.update({ status: "cancelled" });
 
@@ -97,26 +99,30 @@ exports.findAllRepair = async (req, res) => {
   });
 
   return res.status(200).json({
-    message: "Aqui todas los reparaciones  🙈",
     results: repairs.length,
     status: "success",
-    ok: true,
-    repairs,
+    message: "Aqui todas los reparaciones  🐲",
+    data: {
+      repairs,
+    },
   });
 };
 
 // == CREAR UNA CITA // createRepair  == //
 exports.createRepair = catchAsync(async (req, res) => {
-  const { date, userId } = req.body;
+  const { date, userId, motorsNumber, description } = req.body;
 
   const repair = await REPAIR.create({
     date,
     userId,
+    motorsNumber,
+    description,
   });
 
   res.status(201).json({
-    ok: true,
     message: "⛽ Reparación creada correctamente 🎈",
-    repair,
+    data: {
+      repair,
+    },
   });
 });

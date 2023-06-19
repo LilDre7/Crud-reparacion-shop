@@ -24,6 +24,9 @@ exports.findOneUser = catchAsync(async (req, res, next) => {
   return res.json({
     status: "success",
     message: "El usuario fue encontrado 😻",
+    data: {
+      repair,
+    },
   });
 });
 
@@ -44,7 +47,8 @@ exports.updateUser = catchAsync(async (req, res, next) => {
   });
 
   // Validar si el usuario existe
-  if (!user) next(new AppError(`Usuario con ${id} no funciona! 🐣`));
+  if (!user)
+    next(new AppError(`Usuario con ${id} no funciona! 🐣`));
 
   // Actualizar el usuario con la información proporcionada
   const updatedUser = await user.update({ name, email });
@@ -67,9 +71,10 @@ exports.disableUser = catchAsync(async (req, res, next) => {
     },
   });
 
-  if (!user) next(new AppError(`Usuario con ${id} no funciona! 🦄`));
+  if (!user)
+    next(new AppError(`Usuario con ${id} no funciona! 🦄`));
 
-  await user.update({ status: "available" });
+  await user.update({ status: "disabled" });
 
   return res.status(200).json({
     status: "success",
@@ -80,12 +85,18 @@ exports.disableUser = catchAsync(async (req, res, next) => {
 // !! Estas son las rutas son 👉🏾 / 👈🏾  //
 
 // == GET ALL USER == //
-exports.findAllUser = (req, res) => {
+exports.findAllUser = catchAsync(async (req, res) => {
+  const user = await User.findAll();
+
   res.status(200).json({
     ok: true,
-    message: "Aqui todos los usuarios  ㋡",
+    message: "Aqui todos los usuarios  🧑🏾‍🎤",
+    result: user.length,
+    data: {
+      user,
+    },
   });
-};
+});
 
 // == CREATE ONE USER == //
 exports.createUser = catchAsync(async (req, res, next) => {
@@ -155,7 +166,9 @@ exports.login = catchAsync(async (req, res, next) => {
   // Validar si la contraseña es correcta
   // De esta forma evaluamos que la contraseña sea correcta, esto se hace con validaciones de bcrypt
   if (!(await bcrypt.compare(password, user.password))) {
-    return next(new AppError(`La contraseña no es correcta 🦊`, 401));
+    return next(
+      new AppError(`La contraseña no es correcta 🦊`, 401)
+    );
   }
 
   // Generar el token
@@ -183,7 +196,10 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
 
   if (!(await bcrypt.compare(currentPassword, user.password)))
     return next(
-      new AppError(`La contraseña actual no es correcta  🚑`, 401)
+      new AppError(
+        `La contraseña actual no es correcta  🚑`,
+        401
+      )
     );
 
   const salt = await bcrypt.genSalt(10);
@@ -196,7 +212,8 @@ exports.updatePassword = catchAsync(async (req, res, next) => {
 
   res.status(200).json({
     status: "success",
-    message: "La contraseña ha sido actualizada correctamente  🧑🏾‍🎤",
+    message:
+      "La contraseña ha sido actualizada correctamente  🧑🏾‍🎤",
   });
 });
 

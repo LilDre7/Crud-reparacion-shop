@@ -267,3 +267,315 @@
 [2023-06-17T19:53:32.775Z] , info: La contraseña actual no es correcta  🚑
 [2023-06-17T19:53:38.066Z] , info: La contraseña actual no es correcta  🚑
 [2023-06-17T19:53:44.476Z] , info: La contraseña no es correcta 🦊
+[2023-06-18T02:13:03.633Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:13:30.377Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:13:42.219Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:13:47.504Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:15:15.661Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:15:17.763Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:22:10.462Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:22:39.751Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:23:03.491Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:23:13.601Z] , info: no existe la columna «motorsNumber»
+[2023-06-18T02:24:15.246Z] , info: no existe la columna «description»
+[2023-06-18T02:25:02.359Z] , info: no existe la columna «description»
+[2023-06-18T02:26:53.536Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:28:05.745Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:30:24.533Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:30:43.288Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:31:15.595Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:32:39.504Z] , info: Usuario con 1 no funciona! 🦄
+[2023-06-18T02:33:17.211Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:33:48.319Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:34:08.903Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:36:29.498Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:36:31.375Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:36:32.775Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:36:34.670Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T02:37:20.193Z] , info: El usuario no existe 🚨
+[2023-06-18T02:37:23.342Z] , info: Usuario con 1 no funciona! 🐣
+[2023-06-18T02:38:26.631Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T02:38:35.726Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:38:42.274Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:39:11.415Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:39:37.310Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:42:27.287Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-18T02:52:22.621Z] , info: El usuario no existe 🚨
+[2023-06-18T02:52:36.141Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:54:41.662Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:54:46.313Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:54:47.632Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:54:49.911Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:54:58.717Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:55:04.479Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:55:06.165Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:55:07.596Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:55:59.576Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T02:56:08.810Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:15.594Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:16.977Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:23.505Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:24.727Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:25.956Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:31.025Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T02:56:35.903Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-18T02:56:37.649Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-18T02:56:39.234Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-18T02:56:47.234Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:48.457Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:49.692Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:51.067Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:52.265Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:56:55.898Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-18T02:56:57.014Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-18T02:57:01.096Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-18T02:57:23.595Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:57:24.930Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:57:53.521Z] , info: Unexpected token } in JSON at position 39
+[2023-06-18T02:57:55.408Z] , info: Unexpected token } in JSON at position 39
+[2023-06-18T02:57:56.649Z] , info: Unexpected token } in JSON at position 39
+[2023-06-18T02:58:51.737Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:58:53.928Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:58:55.142Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:58:58.566Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:58:59.849Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:59:17.599Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:59:18.974Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T02:59:42.949Z] , info: Usuario con 1 no funciona! 🐣
+[2023-06-18T03:01:32.834Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-18T03:01:38.088Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-18T03:02:23.249Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T03:02:25.545Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T03:02:42.138Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T03:02:43.488Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T03:02:56.117Z] , info: La reparacion con 2 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:02:58.217Z] , info: La ruta es incorrecta o no valida /api/v1/repairs/ 🚑 
+[2023-06-18T03:03:00.632Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:02.338Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:03.533Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:12.429Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:13.633Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:15.958Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:16.977Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:18.031Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:03:19.764Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T03:04:15.260Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T03:04:17.159Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T03:14:14.375Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:14:17.355Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:14:34.984Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:14:36.474Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:26.170Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:27.592Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:28.644Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:30.961Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:32.074Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:33.623Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:44.775Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:46.499Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:47.721Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:55.549Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:56.785Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:18:58.078Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:19:00.663Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:19:03.364Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:19:04.442Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:19:05.720Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:30:40.454Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:32:37.283Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:46:28.564Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:46:39.994Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-18T03:47:53.524Z] , info: AppError is not defined
+[2023-06-18T03:48:29.732Z] , info: Session invalid
+[2023-06-18T03:49:22.988Z] , info: Session invalid
+[2023-06-18T03:49:24.556Z] , info: Session invalid
+[2023-06-18T03:49:25.817Z] , info: Session invalid
+[2023-06-18T03:49:26.893Z] , info: Session invalid
+[2023-06-18T03:50:21.770Z] , info: secret or public key must be provided
+[2023-06-18T03:50:24.131Z] , info: secret or public key must be provided
+[2023-06-18T03:52:21.475Z] , info: secret or public key must be provided
+[2023-06-18T03:58:35.040Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T03:59:46.025Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:00:11.719Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-18T04:00:22.563Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:00:24.115Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:00:25.514Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:00:52.970Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:00:56.184Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:00:58.312Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:01:00.537Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:03:08.428Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:04:46.399Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:06:07.621Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-18T04:06:22.546Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:10:25.905Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:10:28.278Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:10:31.656Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:15:03.515Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:15:09.964Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:15:13.757Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:15:18.098Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:15:24.093Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:15:25.504Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:17.653Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:18.976Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:22.516Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:23.690Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:32.712Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:34.277Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:38.124Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:40.004Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:41.070Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:42.548Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:16:49.677Z] , info: el operador no existe: enum_users_status = boolean
+[2023-06-18T04:16:57.947Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:17:02.649Z] , info: el operador no existe: enum_users_status = boolean
+[2023-06-18T04:17:03.856Z] , info: el operador no existe: enum_users_status = boolean
+[2023-06-18T04:17:09.376Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:17:11.025Z] , info: You are not logged in! Please log in to get access
+[2023-06-18T04:27:09.535Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-18T04:28:16.905Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-18T04:28:19.310Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-18T04:29:01.990Z] , info: La ruta es incorrecta o no valida /api/v1/repairs/ 🚑 
+[2023-06-18T04:29:06.126Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T04:29:17.722Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-18T04:30:16.773Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T04:30:23.060Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T04:30:25.358Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T04:30:42.914Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T04:30:46.821Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T04:30:51.333Z] , info: No hay servicios pendientes 🦊 
+[2023-06-18T04:31:07.204Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:46:09.345Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T17:46:15.333Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T17:47:48.120Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T17:47:53.023Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T17:48:02.990Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-19T17:48:20.455Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T17:48:26.255Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:48:30.027Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:51:02.589Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:51:50.403Z] , info: La ruta es incorrecta o no valida /api/v1/users/ 🚑 
+[2023-06-19T17:52:23.076Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:52:34.595Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:52:36.099Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:52:42.211Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:52:43.108Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:52:44.651Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:53:04.606Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-19T17:53:33.940Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:53:35.424Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:53:40.114Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:53:41.243Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T17:54:08.754Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T18:10:02.025Z] , info: Usuario con 1 no funciona! 🐣
+[2023-06-19T18:10:05.914Z] , info: El usuario no existe 🚨
+[2023-06-19T18:11:52.027Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-19T18:11:55.607Z] , info: La contraseña actual no es correcta  🚑
+[2023-06-19T18:13:08.985Z] , info: La contraseña no es correcta 🦊
+[2023-06-19T18:13:13.748Z] , info: La contraseña no es correcta 🦊
+[2023-06-19T18:13:54.281Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:14:02.264Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:31:35.404Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:32:27.474Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:32:36.029Z] , info: La reparacion con 1 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:32:37.960Z] , info: La reparacion con 4 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:32:39.467Z] , info: La reparacion con 5 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:32:41.309Z] , info: La reparacion con 5 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:32:55.030Z] , info: La reparacion con 53 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:32:56.597Z] , info: La reparacion con 3 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:33:09.651Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:33:12.488Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:33:21.229Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:33:23.023Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:33:23.994Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:33:25.164Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:33:27.286Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:33:42.835Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:33:45.245Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:33:57.000Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:33:58.246Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:33:59.458Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:34:00.402Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:34:01.439Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:34:03.640Z] , info: La ruta es incorrecta o no valida /api/v1/repairs/ 🚑 
+[2023-06-19T18:34:05.164Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:34:06.685Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-19T18:34:41.779Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:34:43.258Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:34:44.251Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:34:52.295Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:34:53.475Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:35:31.795Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:35:38.239Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:35:39.348Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:36:00.912Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:36:13.795Z] , info: La reparacion con 3 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:36:19.979Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-19T18:36:31.376Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:36:32.333Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:38:09.474Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:38:17.577Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:38:24.544Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:38:25.895Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:38:57.818Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:40:16.828Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:41:46.367Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:42:07.005Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:42:08.206Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:42:28.057Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T18:43:15.983Z] , info: La contraseña no es correcta 🦊
+[2023-06-19T18:43:18.487Z] , info: La contraseña no es correcta 🦊
+[2023-06-19T18:43:55.243Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:00.641Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:08.729Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:10.177Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:26.669Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:27.976Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:41.121Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:43.275Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:44:54.614Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:45:24.288Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:46:35.236Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:46:36.350Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:46:37.663Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:46:55.793Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:46:57.874Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:47:32.050Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:48:40.936Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:48:42.494Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:48:45.727Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:48:47.927Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:48:49.424Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:48:51.160Z] , info: No hay servicios pendientes 🦊 
+[2023-06-19T18:50:12.707Z] , info: No existen servicios pending 🐲
+[2023-06-19T18:50:16.177Z] , info: No existen servicios pending 🐲
+[2023-06-19T18:50:17.898Z] , info: No existen servicios pending 🐲
+[2023-06-19T18:50:50.835Z] , info: No existen servicios pending 🐲
+[2023-06-19T18:50:52.544Z] , info: No existen servicios pending 🐲
+[2023-06-19T18:51:02.860Z] , info: No existen servicios pending 🐲
+[2023-06-19T18:53:13.440Z] , info: El usuario no existe 🚨
+[2023-06-19T18:53:15.819Z] , info: El usuario no existe 🚨
+[2023-06-19T18:53:19.518Z] , info: La ruta es incorrecta o no valida /api/v1/users/ 🚑 
+[2023-06-19T18:54:48.437Z] , info: No se encontro la moto, este no es tu taller 🙈 
+[2023-06-19T18:55:29.853Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-19T18:55:45.153Z] , info: La reparacion con 3 no se encuentra o ya esta completa! 👻
+[2023-06-19T18:55:56.711Z] , info: No se puede cancelar una reparación ya completada 🧞‍♂️👁️
+[2023-06-19T18:56:01.295Z] , info: La ruta es incorrecta o no valida /api/v1/repairs/ 🚑 
+[2023-06-19T18:56:06.440Z] , info: La reparación ya fue cancelada 🚑
+[2023-06-19T18:56:10.676Z] , info: La reparación ya fue cancelada 🚑
+[2023-06-19T19:09:39.344Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-19T19:09:41.743Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-19T19:10:00.637Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-19T20:03:35.393Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T20:03:39.300Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T20:11:09.411Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-19T20:13:37.927Z] , info:  ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 
+[2023-06-19T20:16:11.954Z] , info: La reparacion con 3 no se encuentra o ya esta completa! 👻
+[2023-06-19T20:16:15.538Z] , info: La ruta es incorrecta o no valida /api/v1/repairs/ 🚑 
+[2023-06-19T20:16:17.570Z] , info: La ruta es incorrecta o no valida /api/v1/repairs/ 🚑 
+[2023-06-19T20:16:21.361Z] , info: La reparacion con 10 no se encuentra o ya esta completa! 👻
+[2023-06-19T20:51:26.790Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T20:51:31.326Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T20:51:34.106Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-19T20:59:39.619Z] , info: No se encontro el usuario buscado 🎈

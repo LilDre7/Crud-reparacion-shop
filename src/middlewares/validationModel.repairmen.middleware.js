@@ -14,18 +14,21 @@ const validateFields = (req, res, next) => {
 };
 
 exports.validationModelRepair = [
-  body("Date")
+  body("date")
     .not()
     .notEmpty()
-    .isDate()
     .isNumeric()
     .withMessage(
       "Es campo en requerido y debe ser tipo DATE en dato tipo numerico"
     ),
-  body("motorsNumber")
+  body("userId")
     .not()
     .notEmpty()
     .isNumeric()
+    .withMessage("Es campo requerido deber ser tipo numerico"),
+  body("motorsNumber")
+    .not()
+    .notEmpty()
     .isNumeric()
     .withMessage("Es campo requerido deber ser tipo numerico"),
   body("description")

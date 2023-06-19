@@ -32,7 +32,7 @@ const User = db.define("user", {
   status: {
     type: DataTypes.ENUM("available", "disabled"),
     allowNull: false,
-    defaultValue: "disabled",
+    defaultValue: "available",
   },
 });
 

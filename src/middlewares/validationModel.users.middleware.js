@@ -22,11 +22,11 @@ exports.validationModelUser = [
   body("email")
     .not()
     .isEmpty()
-    .isEmail()
-    .matches(
-      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
-    )
-    .withMessage("El email es obligatorio"),
+    .isLength({ min: 8, max: 50 })
+    .matches(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)
+    .withMessage(
+      "Tu correo debe cumplir un formato parecido al siguiente: 'nombredeusuario@dominio.com'."
+    ),
   body("password")
     .not()
     .isEmpty()
