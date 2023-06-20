@@ -579,3 +579,6 @@
 [2023-06-19T20:51:31.326Z] , info: No se encontro el usuario buscado 🎈
 [2023-06-19T20:51:34.106Z] , info: No se encontro el usuario buscado 🎈
 [2023-06-19T20:59:39.619Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-20T00:13:19.718Z] , info: La ruta es incorrecta o no valida /api/v1/users/signup 🚑 
+[2023-06-20T00:13:24.539Z] , info: La ruta es incorrecta o no valida /api/v1/users/signup 🚑 
+[2023-06-20T00:13:30.432Z] , info: Cannot read properties of undefined (reading 'toLowerCase')

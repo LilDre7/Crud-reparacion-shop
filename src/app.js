@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const rateLimit = require("express-rate-limit");
 const helmet = require("helmet");
 const hpp = require("hpp");
+const sanitizer = require("perfect-express-sanitizer");
 
 // ** Utilities ** //
 const AppError = require("./utils/appError");
@@ -15,7 +16,7 @@ const app = express();
 // ** Expres-rate-limit es para limitar las peticiones que se realizan a nuestra api ** //
 const limiter = rateLimit({
   // Para el maximo de peticones
-  max: 3,
+  max: 5,
   // Para saber el tiempo de cada peticion => Solo por ip se puede 3 peticones.
   windowMs: 60 * 60 * 1000,
   // Mensaje de error
@@ -29,6 +30,15 @@ app.use(hpp());
 // ** Helmet es para proteger nuestra aplicacion contra algunos ataques ** //
 app.use(helmet());
 
+// ** Sanitizer es para limpiar los datos que nos llegan de nuestras peticiones **
+app.use(
+  sanitizer.clean({
+    xss: true,
+    // noSql no es necesario porque no estamos usando ningun tipo de base de datos noSql
+    // noSql: true,
+    sql: true,
+  })
+);
 // ** Middlewares ** //
 app.use(express.json());
 
