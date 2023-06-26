@@ -20,8 +20,8 @@ const repairmenController = require("../controllers/repairmen.controller");
 router
   .route("/")
   .post(
-    repairmenExists.repairExist,
     validModelRepair.validationModelRepair,
+    auth.protect,
     repairmenController.createRepair
   );
 

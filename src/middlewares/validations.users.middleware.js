@@ -3,7 +3,7 @@ const AppError = require("../utils/appError");
 const catchAsync = require("../utils/catchAsync");
 
 // Validar que el usuario existe dado un ID, en caso de que no, enviar mensaje de error
-const userExist = catchAsync(async (req, res, next) => {
+exports.userExist = catchAsync(async (req, res, next) => {
   // Aqui lo que hacemos es encontrar al id que vamos a rerificar si existe
   // y si existe lo guardamos en una variable
   // Si no existe, enviamos un mensaje de error
@@ -11,6 +11,7 @@ const userExist = catchAsync(async (req, res, next) => {
   const user = await User.findOne({
     where: {
       id,
+      status: "available",
     },
   });
 
@@ -24,5 +25,3 @@ const userExist = catchAsync(async (req, res, next) => {
   // IMPORTANTE EL NEXT()
   next();
 });
-
-module.exports = { userExist };

@@ -1,6 +1,7 @@
 const User = require("../models/user.model");
 const jwt = require("jsonwebtoken");
 const { promisify } = require("util");
+const catchAsync = require("../utils/catchAsync");
 
 exports.protect = async (req, res, next) => {
   let token;
@@ -15,7 +16,8 @@ exports.protect = async (req, res, next) => {
   if (!token) {
     return res.status(401).json({
       status: "error",
-      message: "You are not logged in, please login to get access",
+      message:
+        "You are not logged in, please login to get access",
     });
   }
 
@@ -38,30 +40,49 @@ exports.protect = async (req, res, next) => {
     });
   }
 
-  if (user.passwordChangedAt) {
-    const changedTimeStamp = parseInt(
-      user.passwordChangedAt.getTime() / 1000,
-      10
-    );
-    if (decoded.iat < changedTimeStamp) {
-      return res.status(401).json({
-        status: "error",
-        message: "User recently changed password!, please try again.",
-      });
-    }
-  }
+  // if (user.passwordChangedAt) {
+  //   const changedTimeStamp = parseInt(
+  //     user.passwordChangedAt.getTime() / 1000,
+  //     10
+  //   );
+  //   if (decoded.iat < changedTimeStamp) {
+  //     return res.status(401).json({
+  //       status: "error",
+  //       message:
+  //         "User recently changed password!, please try again.",
+  //     });
+  //   }
+  // }
 
   req.sessionUser = user;
 
   next();
 };
 
+exports.protectAccountOwner = catchAsync(
+  async (req, res, next) => {
+    const { user, sessionUser } = req;
+    if (sessionUser.role === "employee") {
+      next();
+    } else {
+      if (user.id !== sessionUser.id) {
+        return next(
+          new AppError("You do not own this account.", 401)
+        );
+      }
+
+      next();
+    }
+  }
+);
+
 exports.restricTo = (...roles) => {
   return (req, res, next) => {
     if (!roles.includes(req.sessionUser.role)) {
       return res.status(403).json({
         status: "error",
-        message: "You do not have permission to perform this action!",
+        message:
+          "You do not have permission to perform this action!",
       });
     }
     next();

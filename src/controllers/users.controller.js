@@ -86,7 +86,12 @@ exports.disableUser = catchAsync(async (req, res, next) => {
 
 // == GET ALL USER == //
 exports.findAllUser = catchAsync(async (req, res) => {
-  const user = await User.findAll();
+  const user = await User.findAll({
+    where: { status: "available" },
+    attributes: {
+      exclude: ["status", "password"],
+    },
+  });
 
   res.status(200).json({
     ok: true,
@@ -100,44 +105,48 @@ exports.findAllUser = catchAsync(async (req, res) => {
 
 // == CREATE ONE USER == //
 exports.createUser = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
+  // Crear un usuario con contraseña encriptada
   const { name, email, password, role } = req.body;
 
-  // Creacion para la encriptacion de contraseñas con bcrypt
-  const salt = await bcrypt.genSalt(10);
-  const encrytedPassword = await bcrypt.hash(password, salt);
-
-  // Aqui verifico si esta disponible el email
-  const emailNotAvailable = await User.findOne({
+  // Validar si el usuario con ese email ya existe
+  const userExist = await User.findOne({
     where: {
-      email: email.toLowerCase(),
+      email: email,
     },
   });
-  if (emailNotAvailable)
-    next(
+
+  if (userExist)
+    return next(
       new AppError(
-        " ⛽ El usuario ya existe en la base de datos no puede ser usado. 🏁 "
-      )
+        `El email: ${email} ya existe en nuestra base 🥷🏾`
+      ),
+      400
     );
 
-  // Si el email esta disponible, se crea el usuario
+  // Encriptar la contraseña
+  const salt = await bcrypt.genSalt(10);
+  const hashedPassword = await bcrypt.hash(password, salt);
+
+  // Crear el usuario y enviarlo encriptado
+
   const user = await User.create({
-    name: name.toLowerCase(),
-    email: email.toLowerCase(),
-    password: encrytedPassword,
-    role: role.toLowerCase(),
+    name: name,
+    email: email,
+    password: hashedPassword,
+    role,
   });
-  // Genero el token de autenticacion
+
+  // Genarar token de autenticacion
   const token = await generatejwt(user.id);
 
+  // Enviar la información del usuario
   res.status(201).json({
     ok: true,
     message: "Usuario creado 🐌",
     token,
-    user: {
-      id: user.name,
-      name: user.name,
-      email: user.email,
-      role: user.role,
+    data: {
+      user,
     },
   });
 });
@@ -150,7 +159,7 @@ exports.login = catchAsync(async (req, res, next) => {
   // Buscar el usuario en la base de datos y revisar si existen
   const user = await User.findOne({
     where: {
-      email: email.toLowerCase(),
+      email: email,
       status: "available",
     },
   });

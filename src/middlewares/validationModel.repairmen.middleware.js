@@ -14,26 +14,14 @@ const validateFields = (req, res, next) => {
 };
 
 exports.validationModelRepair = [
-  body("date")
-    .not()
-    .notEmpty()
-    .isNumeric()
-    .withMessage(
-      "Es campo en requerido y debe ser tipo DATE en dato tipo numerico"
-    ),
-  body("userId")
-    .not()
-    .notEmpty()
-    .isNumeric()
-    .withMessage("Es campo requerido deber ser tipo numerico"),
+  body("date").notEmpty().withMessage("Date cannot be empty"),
   body("motorsNumber")
-    .not()
     .notEmpty()
-    .isNumeric()
-    .withMessage("Es campo requerido deber ser tipo numerico"),
+    .withMessage("Motors Number cannot be empty")
+    .isLength({ min: 6 })
+    .withMessage("Motors Number must be at least 6 characters"),
   body("description")
-    .not()
     .notEmpty()
-    .withMessage("Es campo requerido deber ser tipo string"),
+    .withMessage("Description cannot be empty"),
   validateFields,
 ];

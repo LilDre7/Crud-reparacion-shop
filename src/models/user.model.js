@@ -4,10 +4,9 @@ const { db } = require("../db/config");
 const User = db.define("user", {
   id: {
     primaryKey: true,
-    allowNull: false,
     autoIncrement: true,
+    allowNull: false,
     type: DataTypes.INTEGER,
-    unique: true,
   },
   name: {
     type: DataTypes.STRING,
@@ -21,10 +20,9 @@ const User = db.define("user", {
   password: {
     type: DataTypes.STRING,
     allowNull: false,
-    unique: true, // Habilitar si deseas contraseñas únicas por usuario
+    unique: true,
   },
   role: {
-    // enum: permite definir un conjunto de valores predefinidos
     type: DataTypes.ENUM("client", "employee"),
     allowNull: false,
     defaultValue: "client",

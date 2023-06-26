@@ -14,7 +14,7 @@ const validateFields = (req, res, next) => {
 };
 
 exports.validationModelUser = [
-  body("name", "El nombre es obligatorio")
+  body("name")
     .not()
     .isEmpty()
     .isLength({ min: 5 })
@@ -34,6 +34,7 @@ exports.validationModelUser = [
     .withMessage(
       "La contraseña debe tener entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula."
     ),
+  body("role").not().isEmpty().isLength({ min: 5 }),
   validateFields,
 ];
 

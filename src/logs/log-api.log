@@ -582,3 +582,309 @@
 [2023-06-20T00:13:19.718Z] , info: La ruta es incorrecta o no valida /api/v1/users/signup 🚑 
 [2023-06-20T00:13:24.539Z] , info: La ruta es incorrecta o no valida /api/v1/users/signup 🚑 
 [2023-06-20T00:13:30.432Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-22T19:26:10.553Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-22T19:26:52.959Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-22T19:27:15.208Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-22T19:27:16.802Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-22T19:27:26.281Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T19:27:41.787Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T19:27:44.125Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T19:28:31.923Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T19:28:32.981Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T19:30:57.072Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-22T19:31:00.588Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-22T19:31:01.968Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-22T19:31:06.187Z] , info: No se encontro el usuario buscado 🎈
+[2023-06-22T19:34:46.965Z] , info: Illegal arguments: undefined, string
+[2023-06-22T19:39:07.795Z] , info: Illegal arguments: undefined, string
+[2023-06-22T19:55:35.109Z] , info: Illegal arguments: undefined, string
+[2023-06-22T19:56:27.011Z] , info: Illegal arguments: undefined, string
+[2023-06-22T20:03:16.949Z] , info: Illegal arguments: undefined, string
+[2023-06-22T20:04:52.172Z] , info: Illegal arguments: undefined, string
+[2023-06-22T20:05:27.726Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:05:30.983Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:06:08.360Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:06:10.018Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:07:32.015Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:07:33.100Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:09:05.034Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:19:23.854Z] , info: La ruta es incorrecta o no valida /api/v1/users/3 🚑 
+[2023-06-22T20:19:25.784Z] , info: La ruta es incorrecta o no valida /api/v1/users/3 🚑 
+[2023-06-22T20:23:39.665Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:23:43.279Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:24:36.179Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-22T20:24:54.376Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:26:08.927Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:27:38.854Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:27:40.223Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:28:13.378Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:28:24.393Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:28:31.987Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:28:33.173Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:28:49.923Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:28:51.181Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:33:44.109Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:33:45.613Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:33:54.761Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:33:55.811Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:33:58.462Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:35:37.827Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:36:20.375Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:36:31.595Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:37:40.894Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:37:42.700Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:37:57.507Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:38:08.772Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:39:08.712Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:39:33.054Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:50:25.642Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:50:45.517Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T20:50:57.134Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:56:07.664Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:56:23.308Z] , info: emailNotAvailable is not defined
+[2023-06-22T20:58:14.420Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:58:16.510Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-22T20:58:52.923Z] , info: Illegal arguments: undefined, string
+[2023-06-22T21:27:13.294Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-22T21:27:17.904Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-23T21:00:50.347Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-23T21:01:05.771Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:01:09.388Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:02:21.031Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-23T21:02:22.574Z] , info:  ⛓ El email es obligatorio ⛓ 
+[2023-06-23T21:02:54.373Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:04:35.374Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:04:37.568Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:04:38.711Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:05:09.672Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:06:50.372Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:06:52.074Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:06:53.138Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:09:45.182Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:10:20.793Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:23:17.876Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:23:42.058Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:23:43.537Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:23:49.904Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:25:28.243Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:25:29.562Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:28:11.999Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:28:14.143Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:28:15.601Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:28:17.852Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:28:58.151Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:28:59.257Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:29:24.696Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:29:32.210Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:29:37.167Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:29:38.486Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:29:42.988Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:32:03.440Z] , info: La ruta es incorrecta o no valida /api/v1/users/create 🚑 
+[2023-06-23T21:32:11.176Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:32:33.915Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:32:35.565Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:33:46.098Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:38:35.867Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:42:52.699Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:43:43.285Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:44:31.405Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:44:38.958Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:44:54.598Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:44:55.925Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:44:57.257Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:45:00.350Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:46:28.179Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:47:31.381Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:48:14.551Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:48:33.477Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-23T21:48:35.143Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:40:59.769Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:42:09.100Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-24T00:42:47.223Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:43:19.054Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:43:26.954Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:43:31.563Z] , info: Illegal arguments: undefined, string
+[2023-06-24T00:44:14.833Z] , info: Illegal arguments: undefined, string
+[2023-06-24T00:44:16.547Z] , info: Illegal arguments: undefined, string
+[2023-06-24T00:44:17.645Z] , info: Illegal arguments: undefined, string
+[2023-06-24T00:44:50.930Z] , info: Illegal arguments: undefined, string
+[2023-06-24T00:44:57.325Z] , info: Illegal arguments: undefined, string
+[2023-06-24T00:49:03.639Z] , info: User.exists is not a function
+[2023-06-24T00:49:26.850Z] , info: User.exists is not a function
+[2023-06-24T00:49:31.545Z] , info: User.exists is not a function
+[2023-06-24T00:50:35.148Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:50:36.865Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:52:43.500Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:52:45.638Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:54:20.395Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:54:22.494Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:54:43.766Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:56:36.126Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:56:37.821Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:56:38.966Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:57:05.516Z] , info: El correo electrónico es obligatorio.
+[2023-06-24T00:58:16.440Z] , info: ⛓ El email es requerido ⛓
+[2023-06-24T00:58:18.430Z] , info: ⛓ El email es requerido ⛓
+[2023-06-24T00:59:03.208Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:59:05.454Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:59:09.465Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:59:18.343Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T00:59:34.094Z] , info: 👨🏾‍💻 El email es requerido 
+[2023-06-24T19:33:58.753Z] , info: 👨🏾‍💻 El email es requerido 
+[2023-06-24T19:41:23.017Z] , info: 👨🏾‍💻 El email es requerido 
+[2023-06-24T19:48:48.609Z] , info: 👨🏾‍💻 El email es requerido 
+[2023-06-24T19:49:15.667Z] , info: 👨🏾‍💻 El email es requerido 
+[2023-06-24T19:49:22.755Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:49:40.398Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:49:47.820Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:49:50.537Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:50:11.472Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:50:17.253Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:50:58.016Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:51:04.648Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-24T19:51:10.650Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-24T19:51:12.798Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-24T19:51:14.122Z] , info: Cannot read properties of undefined (reading 'toLowerCase')
+[2023-06-24T19:51:18.724Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:51:27.641Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:51:29.414Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:51:30.999Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:51:35.093Z] , info: WHERE parameter "role" has invalid "undefined" value
+[2023-06-24T19:51:53.021Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:19.598Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-24T19:52:24.876Z] , info: userExists is not defined
+[2023-06-24T19:52:41.018Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:42.983Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:43.911Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:45.183Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:46.256Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:47.145Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:48.454Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:52:49.592Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:53:12.771Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:53:34.239Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:58:34.488Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:58:36.804Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:58:37.921Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:58:42.352Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:59:03.909Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:59:24.668Z] , info: Illegal arguments: undefined, string
+[2023-06-24T19:59:26.964Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:00:33.655Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:01:26.265Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:01:27.685Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:31:46.386Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:32:50.712Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:33:13.757Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:33:15.539Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:33:22.194Z] , info: notNull Violation: user.name cannot be null,
+notNull Violation: user.email cannot be null
+[2023-06-24T20:33:55.722Z] , info: Illegal arguments: undefined, string
+[2023-06-24T20:35:16.193Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:38:24.622Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:38:30.916Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:38:45.040Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:38:46.736Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:38:55.678Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:39:01.350Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:39:05.056Z] , info: llave duplicada viola restricción de unicidad «users_email_key»
+[2023-06-24T20:40:55.895Z] , info: El email: email@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-24T20:40:59.877Z] , info: El email: email@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-24T20:42:17.414Z] , info: El email: email@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-24T20:42:19.119Z] , info: El email: email@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-24T20:42:34.568Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-24T20:42:40.048Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-24T20:42:41.260Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-24T20:43:52.675Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-24T20:44:11.427Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-24T20:50:03.729Z] , info: El usuario con este email: julioliu01@mail.com no existe o es disabled 🚑
+[2023-06-24T20:50:59.686Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:51:04.141Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:51:12.833Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:51:20.131Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:51:21.541Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:51:33.679Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:54:48.131Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:54:49.534Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-24T20:54:58.647Z] , info: Users is not defined
+[2023-06-24T20:55:39.360Z] , info: Users is not defined
+[2023-06-24T20:56:17.663Z] , info: Users is not defined
+[2023-06-24T20:57:03.950Z] , info: User is not defined
+[2023-06-24T20:57:14.169Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T20:57:33.069Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T20:58:19.491Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T20:58:57.444Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-24T20:59:08.112Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-24T20:59:34.939Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-24T20:59:36.707Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-24T20:59:38.208Z] , info: Cannot read properties of undefined (reading 'user')
+[2023-06-24T20:59:48.234Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:01:51.900Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:01:53.023Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:03:30.252Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:07:13.623Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:07:15.955Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:07:17.266Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:07:18.349Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:08:03.549Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:08:36.365Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:11:33.076Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:11:46.000Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:12:38.080Z] , info: inserción o actualización en la tabla «repairs» viola la llave foránea «repairs_userId_fkey»
+[2023-06-24T21:13:08.466Z] , info: inserción o actualización en la tabla «repairs» viola la llave foránea «repairs_userId_fkey»
+[2023-06-24T21:13:14.010Z] , info: inserción o actualización en la tabla «repairs» viola la llave foránea «repairs_userId_fkey»
+[2023-06-24T21:13:22.371Z] , info: inserción o actualización en la tabla «repairs» viola la llave foránea «repairs_userId_fkey»
+[2023-06-24T21:13:25.820Z] , info: inserción o actualización en la tabla «repairs» viola la llave foránea «repairs_userId_fkey»
+[2023-06-24T21:16:07.084Z] , info: motorsNumber.toLowerCase is not a function
+[2023-06-24T21:16:38.566Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:17:30.496Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:17:36.111Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:17:38.149Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:17:39.201Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:17:40.656Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:19:48.764Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:20:38.261Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:25:56.400Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:27:26.878Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:28:38.189Z] , info: El email: aaronjarquin@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-24T21:29:06.083Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:29:07.752Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:29:12.719Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:29:13.740Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:31:53.505Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:31:56.232Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:32:17.336Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:39:03.954Z] , info: inserción o actualización en la tabla «repairs» viola la llave foránea «repairs_userId_fkey»
+[2023-06-24T21:39:39.866Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:15.737Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:17.645Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:18.761Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:24.880Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:30.210Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:47.520Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:49.594Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:40:58.667Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:43:33.966Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:45:23.609Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:45:25.449Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:46:03.026Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:47:05.761Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:47:07.739Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:47:09.006Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:48:12.676Z] , info: WHERE parameter "id" has invalid "undefined" value
+[2023-06-24T21:52:10.025Z] , info: El email: lildree@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-24T21:52:15.394Z] , info: La contraseña no es correcta 🦊
+[2023-06-24T21:52:53.156Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:52:55.931Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:52:57.273Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:53:06.147Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:53:07.325Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:53:08.233Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:53:09.144Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:53:10.594Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:53:16.061Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:55:27.030Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:55:36.005Z] , info: notNull Violation: repairs.userId cannot be null
+[2023-06-24T21:57:19.856Z] , info: Repair is not defined
+[2023-06-24T21:57:23.123Z] , info: Repair is not defined
+[2023-06-24T21:58:07.222Z] , info: motorsNumber.toLowerCase is not a function

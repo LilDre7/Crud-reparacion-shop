@@ -2,6 +2,7 @@
 const REPAIR = require("../models/repairmen.model");
 const catchAsync = require("../utils/catchAsync");
 const AppError = require("../utils/appError");
+const User = require("../models/user.model");
 
 //TODO: Estas son las rutas son 👉🏾 /:id 👈🏾  //
 
@@ -92,10 +93,18 @@ exports.disableRepair = catchAsync(async (req, res, next) => {
 
 // == OBTENER LA LISTA DE MOTOS // findAllRepair  == //
 exports.findAllRepair = async (req, res) => {
+  const { id } = req.params;
+
   const repairs = await REPAIR.findAll({
-    where: {
-      status: "pending", // pending, completed, cancelled
+    where: { status: ["pending", "completed"] },
+    attributes: {
+      exclude: ["status"],
     },
+    // include: [
+    //   {
+    //     model: User,
+    //   },
+    // ],
   });
 
   return res.status(200).json({
@@ -109,20 +118,19 @@ exports.findAllRepair = async (req, res) => {
 };
 
 // == CREAR UNA CITA // createRepair  == //
-exports.createRepair = catchAsync(async (req, res) => {
-  const { date, userId, motorsNumber, description } = req.body;
+exports.createRepair = catchAsync(async (req, res, next) => {
+  const { date, motorsNumber, description } = req.body;
+  const { id } = req.sessionUser;
 
   const repair = await REPAIR.create({
     date,
-    userId,
-    motorsNumber,
+    motorsNumber: motorsNumber,
     description,
+    userId: id,
   });
 
   res.status(201).json({
-    message: "⛽ Reparación creada correctamente 🎈",
-    data: {
-      repair,
-    },
+    message: "Motorcycle repair created successfully",
+    repair,
   });
 });
