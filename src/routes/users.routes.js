@@ -36,7 +36,11 @@ router
     userExists.userExist,
     userController.updateUser
   )
-  .delete(auth.protectAccountOwner, userController.disableUser);
+  .delete(
+    userExists.userExist,
+    auth.protectAccountOwner,
+    userController.disableUser
+  );
 
 router.route("/login").post(userController.login);
 

@@ -100,11 +100,14 @@ exports.findAllRepair = async (req, res) => {
     attributes: {
       exclude: ["status"],
     },
-    // include: [
-    //   {
-    //     model: User,
-    //   },
-    // ],
+    include: [
+      {
+        model: User,
+        attributes: {
+          exclude: ["password"],
+        },
+      },
+    ],
   });
 
   return res.status(200).json({
@@ -130,7 +133,7 @@ exports.createRepair = catchAsync(async (req, res, next) => {
   });
 
   res.status(201).json({
-    message: "Motorcycle repair created successfully",
+    message: "La cita fue creada exitosamente 🐲",
     repair,
   });
 });

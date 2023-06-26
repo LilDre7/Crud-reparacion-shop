@@ -16,6 +16,9 @@ exports.findOneUser = catchAsync(async (req, res, next) => {
       status: "available",
       id,
     },
+    attributes: {
+      exclude: ["password", "role"],
+    },
   });
 
   if (!repair)
@@ -42,13 +45,15 @@ exports.updateUser = catchAsync(async (req, res, next) => {
   const user = await User.findOne({
     where: {
       id,
-      status: "available",
     },
   });
 
   // Validar si el usuario existe
-  if (!user)
-    next(new AppError(`Usuario con ${id} no funciona! 🐣`));
+  if (!user) {
+    return next(
+      new AppError(`Usuario con ${id} no funciona! 🐣`)
+    );
+  }
 
   // Actualizar el usuario con la información proporcionada
   const updatedUser = await user.update({ name, email });
@@ -105,7 +110,6 @@ exports.findAllUser = catchAsync(async (req, res) => {
 
 // == CREATE ONE USER == //
 exports.createUser = catchAsync(async (req, res, next) => {
-  const { id } = req.params;
   // Crear un usuario con contraseña encriptada
   const { name, email, password, role } = req.body;
 
@@ -121,6 +125,12 @@ exports.createUser = catchAsync(async (req, res, next) => {
       new AppError(
         `El email: ${email} ya existe en nuestra base 🥷🏾`
       ),
+      400
+    );
+
+  if (role !== "admin" && role !== "client")
+    return next(
+      new AppError(`El role:${role} no existe 👺 `),
       400
     );
 
@@ -159,7 +169,7 @@ exports.login = catchAsync(async (req, res, next) => {
   // Buscar el usuario en la base de datos y revisar si existen
   const user = await User.findOne({
     where: {
-      email: email,
+      email,
       status: "available",
     },
   });

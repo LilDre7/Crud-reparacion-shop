@@ -2,6 +2,7 @@ const User = require("../models/user.model");
 const jwt = require("jsonwebtoken");
 const { promisify } = require("util");
 const catchAsync = require("../utils/catchAsync");
+const AppError = require("../utils/appError");
 
 exports.protect = async (req, res, next) => {
   let token;
@@ -40,20 +41,6 @@ exports.protect = async (req, res, next) => {
     });
   }
 
-  // if (user.passwordChangedAt) {
-  //   const changedTimeStamp = parseInt(
-  //     user.passwordChangedAt.getTime() / 1000,
-  //     10
-  //   );
-  //   if (decoded.iat < changedTimeStamp) {
-  //     return res.status(401).json({
-  //       status: "error",
-  //       message:
-  //         "User recently changed password!, please try again.",
-  //     });
-  //   }
-  // }
-
   req.sessionUser = user;
 
   next();
@@ -62,6 +49,10 @@ exports.protect = async (req, res, next) => {
 exports.protectAccountOwner = catchAsync(
   async (req, res, next) => {
     const { user, sessionUser } = req;
+    if (!sessionUser || !sessionUser.role) {
+      return next(new AppError("Invalid session user.", 401));
+    }
+
     if (sessionUser.role === "employee") {
       next();
     } else {

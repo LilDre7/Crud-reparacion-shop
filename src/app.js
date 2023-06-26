@@ -16,7 +16,7 @@ const app = express();
 // ** Expres-rate-limit es para limitar las peticiones que se realizan a nuestra api ** //
 const limiter = rateLimit({
   // Para el maximo de peticones
-  max: 20,
+  max: 200,
   // Para saber el tiempo de cada peticion => Solo por ip se puede 3 peticones.
   windowMs: 60 * 60 * 1000,
   // Mensaje de error
@@ -30,7 +30,7 @@ app.use(hpp());
 // ** Helmet es para proteger nuestra aplicacion contra algunos ataques ** //
 app.use(helmet());
 
-// ** Sanitizer es para limpiar los datos que nos llegan de nuestras peticiones **
+// ** Sanitizer es para limpiar los datos que nos llegan de nuestras peticiones ** Esto literal no sirve 😡
 // app.use(
 //   sanitizer.clean({
 //     xss: true,

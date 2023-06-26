@@ -888,3 +888,230 @@ notNull Violation: user.email cannot be null
 [2023-06-24T21:57:19.856Z] , info: Repair is not defined
 [2023-06-24T21:57:23.123Z] , info: Repair is not defined
 [2023-06-24T21:58:07.222Z] , info: motorsNumber.toLowerCase is not a function
+[2023-06-26T17:15:29.740Z] , info: El email: lildree@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-26T17:15:58.869Z] , info: El email: florocampoja@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-26T17:16:10.640Z] , info: la sintaxis de entrada no es válida para el enum enum_users_role: «cliente»
+[2023-06-26T17:16:16.425Z] , info: la sintaxis de entrada no es válida para el enum enum_users_role: «cliente»
+[2023-06-26T17:18:02.121Z] , info: Class constructor AppError cannot be invoked without 'new'
+[2023-06-26T17:18:18.083Z] , info: El role:cliente no existe
+[2023-06-26T17:18:32.989Z] , info: El role:cliente no existe
+[2023-06-26T17:18:40.032Z] , info: El role:cliente no existe 👺 
+[2023-06-26T17:18:48.501Z] , info: El role:client no existe 👺 
+[2023-06-26T17:18:50.781Z] , info: El role:client no existe 👺 
+[2023-06-26T17:18:51.689Z] , info: El role:client no existe 👺 
+[2023-06-26T17:18:52.714Z] , info: El role:client no existe 👺 
+[2023-06-26T17:19:42.846Z] , info: El email: frabijaa@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-26T17:19:47.589Z] , info: El email: frabijaa@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-26T17:22:23.493Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:22:27.435Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:03.407Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:05.171Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:06.393Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:22.642Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:26.610Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:27.791Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:29.033Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:36.863Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:38.652Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:40.074Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:23:41.350Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:24:13.347Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:25:26.356Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:25:27.639Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:25:28.644Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:25:29.402Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:25:30.794Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:26:25.093Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:26:26.333Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:27:02.869Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:27:36.351Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:28:29.369Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:28:30.668Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:28:31.912Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:28:32.620Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:28:39.181Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:28:46.666Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:28:48.734Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:29:44.807Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:30:27.189Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:30:28.398Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:30:33.889Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:30:46.721Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:30:48.079Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:31:14.672Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:31:16.610Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:33:25.326Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:33:27.049Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:33:32.304Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:33:34.649Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:39:06.142Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:39:09.011Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:39:12.238Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:39:16.116Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:39:17.277Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:15.325Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:16.881Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:26.257Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:54.073Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:55.733Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:56.685Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:57.500Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:58.392Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:40:59.282Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:41:43.752Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:41:46.970Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:41:49.124Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:42:38.278Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:42:40.475Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:43:01.148Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:43:02.312Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:43:03.495Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:43:19.124Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:43:27.081Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:44:18.767Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:44:23.065Z] , info: La ruta es incorrecta o no valida /api/v1/users/login/1 🚑 
+[2023-06-26T17:44:25.511Z] , info: La ruta es incorrecta o no valida /api/v1/users/login/2 🚑 
+[2023-06-26T17:44:27.577Z] , info: La ruta es incorrecta o no valida /api/v1/users/login/2 🚑 
+[2023-06-26T17:44:29.023Z] , info: La ruta es incorrecta o no valida /api/v1/users/login/24 🚑 
+[2023-06-26T17:44:30.724Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:44:47.768Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:44:54.012Z] , info: La ruta es incorrecta o no valida /api/v1/users/login2 🚑 
+[2023-06-26T17:44:57.711Z] , info: La ruta es incorrecta o no valida /api/v1/users/login2 🚑 
+[2023-06-26T17:45:00.752Z] , info: La ruta es incorrecta o no valida /api/v1/users/login2 🚑 
+[2023-06-26T17:45:01.761Z] , info: La ruta es incorrecta o no valida /api/v1/users/login2 🚑 
+[2023-06-26T17:45:10.248Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:45:33.905Z] , info: La ruta es incorrecta o no valida /api/v1/users/login 🚑 
+[2023-06-26T17:45:54.498Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:46:18.872Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:46:20.661Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:46:41.060Z] , info: Cannot destructure property 'email' of 'req.sessionUser' as it is undefined.
+[2023-06-26T17:46:54.440Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:46:56.219Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:47:07.096Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:47:19.977Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:47:21.190Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:47:38.901Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:47:55.222Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:48:10.540Z] , info: WHERE parameter "email" has invalid "undefined" value
+[2023-06-26T17:49:56.218Z] , info: Cannot destructure property 'name' of 'req.sessionUser' as it is undefined.
+[2023-06-26T17:49:58.029Z] , info: Cannot destructure property 'name' of 'req.sessionUser' as it is undefined.
+[2023-06-26T17:49:58.840Z] , info: Cannot destructure property 'name' of 'req.sessionUser' as it is undefined.
+[2023-06-26T17:50:27.659Z] , info: El email: frabijaa@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-26T17:50:46.966Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:50:48.280Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:50:49.459Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:50:50.489Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:51:53.770Z] , info: El email: frabijaa@gmail.com ya existe en nuestra base 🥷🏾
+[2023-06-26T17:51:58.232Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:52:16.043Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:52:22.708Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:52:24.312Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:52:25.488Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:52:33.871Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:52:43.973Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:54:28.577Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:54:41.831Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:56:28.995Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:56:30.568Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:56:31.546Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:59:07.326Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:59:09.599Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:59:10.581Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:59:12.293Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T17:59:29.154Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:00:25.119Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:00:27.257Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:00:35.461Z] , info: El usuario no existe 🚨
+[2023-06-26T18:00:38.779Z] , info: El usuario no existe 🚨
+[2023-06-26T18:00:39.867Z] , info: El usuario no existe 🚨
+[2023-06-26T18:00:44.057Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:00:45.544Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:00:48.601Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:00:49.933Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:01:55.643Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:02:03.084Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:02:07.879Z] , info: El usuario no existe 🚨
+[2023-06-26T18:02:09.037Z] , info: El usuario no existe 🚨
+[2023-06-26T18:02:33.399Z] , info: El usuario no existe 🚨
+[2023-06-26T18:02:34.695Z] , info: El usuario no existe 🚨
+[2023-06-26T18:02:36.092Z] , info: El usuario no existe 🚨
+[2023-06-26T18:03:00.230Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:03:01.514Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:03:11.572Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:03:31.294Z] , info: El usuario no existe 🚨
+[2023-06-26T18:03:51.896Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:03:54.947Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:03:59.712Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:04:01.868Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:04:02.913Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:06:46.916Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-26T18:06:49.572Z] , info: No se encontro la moto, este no es tu taller 🚑 
+[2023-06-26T18:09:12.969Z] , info: La reparacion con 10 no se encuentra o ya esta completa! 👻
+[2023-06-26T18:09:17.509Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-26T18:09:20.392Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-26T18:09:22.491Z] , info: No se puede cancelar una reparación ya completada 🧞‍♂️👁️
+[2023-06-26T18:09:25.524Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-26T18:09:26.923Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-26T18:09:33.899Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-26T18:09:36.137Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-26T18:09:37.392Z] , info: No se encontró la moto para reparar 🚨
+[2023-06-26T18:09:59.084Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:10:02.438Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:11:41.911Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:11:43.095Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:11:44.854Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:11:45.996Z] , info: La ruta es incorrecta o no valida /api/v1/users/ 🚑 
+[2023-06-26T18:11:49.046Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:11:50.676Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:11:51.652Z] , info: El usuario no existe 🚨
+[2023-06-26T18:11:54.236Z] , info: El usuario no existe 🚨
+[2023-06-26T18:11:56.538Z] , info: El usuario no existe 🚨
+[2023-06-26T18:11:57.701Z] , info: El usuario no existe 🚨
+[2023-06-26T18:11:58.820Z] , info: El usuario no existe 🚨
+[2023-06-26T18:11:59.948Z] , info: El usuario no existe 🚨
+[2023-06-26T18:12:01.266Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:12:03.123Z] , info: Cannot read properties of undefined (reading 'role')
+[2023-06-26T18:13:27.182Z] , info: AppError is not defined
+[2023-06-26T18:13:37.556Z] , info: AppError is not defined
+[2023-06-26T18:13:38.864Z] , info: AppError is not defined
+[2023-06-26T18:13:52.728Z] , info: Invalid session user.
+[2023-06-26T18:13:58.450Z] , info: Invalid session user.
+[2023-06-26T18:17:35.547Z] , info: Invalid session user.
+[2023-06-26T18:17:37.395Z] , info: Invalid session user.
+[2023-06-26T18:17:38.322Z] , info: Invalid session user.
+[2023-06-26T18:17:39.870Z] , info: La ruta es incorrecta o no valida /api/v1/users/ 🚑 
+[2023-06-26T18:17:41.435Z] , info: La ruta es incorrecta o no valida /api/v1/users/ 🚑 
+[2023-06-26T18:17:42.875Z] , info: Invalid session user.
+[2023-06-26T18:17:44.790Z] , info: Invalid session user.
+[2023-06-26T18:17:45.845Z] , info: Invalid session user.
+[2023-06-26T18:17:46.848Z] , info: El usuario no existe 🚨
+[2023-06-26T18:17:48.566Z] , info: Invalid session user.
+[2023-06-26T18:18:03.324Z] , info: Invalid session user.
+[2023-06-26T18:18:04.679Z] , info: Invalid session user.
+[2023-06-26T18:18:05.608Z] , info: Invalid session user.
+[2023-06-26T18:19:09.315Z] , info: Invalid session user.
+[2023-06-26T18:19:10.471Z] , info: Invalid session user.
+[2023-06-26T18:19:25.196Z] , info: Invalid session user.
+[2023-06-26T18:19:28.361Z] , info: Invalid session user.
+[2023-06-26T18:20:10.102Z] , info: Invalid session user.
+[2023-06-26T18:20:12.223Z] , info: Invalid session user.
+[2023-06-26T18:20:13.274Z] , info: Invalid session user.
+[2023-06-26T18:20:33.781Z] , info: Invalid session user.
+[2023-06-26T18:20:35.222Z] , info: Invalid session user.
+[2023-06-26T18:20:37.025Z] , info: Invalid session user.
+[2023-06-26T18:20:42.546Z] , info: Invalid session user.
+[2023-06-26T18:21:31.609Z] , info: Invalid session user.
+[2023-06-26T18:21:35.241Z] , info: Invalid session user.
+[2023-06-26T18:22:00.634Z] , info: Invalid session user.
+[2023-06-26T18:22:02.546Z] , info: Invalid session user.
+[2023-06-26T18:22:03.989Z] , info: Invalid session user.
+[2023-06-26T18:22:28.292Z] , info: Invalid session user.
+[2023-06-26T18:22:29.884Z] , info: Invalid session user.
+[2023-06-26T18:22:52.891Z] , info: Invalid session user.
+[2023-06-26T18:22:56.304Z] , info: El usuario no existe 🚨
+[2023-06-26T18:22:59.004Z] , info: Invalid session user.
+[2023-06-26T18:24:19.060Z] , info: Invalid session user.
+[2023-06-26T18:24:20.786Z] , info: Invalid session user.
+[2023-06-26T18:24:24.276Z] , info: Invalid session user.
+[2023-06-26T18:24:25.821Z] , info: Invalid session user.
+[2023-06-26T18:24:27.973Z] , info: Invalid session user.
